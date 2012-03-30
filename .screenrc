@@ -1,0 +1,9 @@
+vbell off
+autodetach on
+defscrollback 100000
+escape "^Oo"
+defbce "on"
+encoding utf-8 utf-8
+defencoding utf-8
+hardstatus on
+hardstatus alwayslastline "%-w${=b bw}%n %t%{-}*w"
