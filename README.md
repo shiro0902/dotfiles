@@ -9,7 +9,7 @@
 
 ## how to use
     $ cd
-    $ git clone --recursive git://github.com/shirokichi/dotfiles.git
+    $ git clone --recursive git://github.com/shirokichi/dotfiles
     $ sh dotfiles/symlink.sh
     $ vim
     :NeoBundleInstall
