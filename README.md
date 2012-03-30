@@ -4,14 +4,14 @@
 - .vim
 - .screenrc
 - .tmux.conf
-- .symlink.sh
+- create_symlink.sh
 - .gitigonre, README
 
 ## how to use
-    # cd
-    # git clone --recursive git://github.com/shirokichi/dotfiles.git
-    # sh dotfiles/symlink.sh
-    # vim
+    $ cd
+    $ git clone --recursive git://github.com/shirokichi/dotfiles.git
+    $ sh dotfiles/symlink.sh
+    $ vim
     :NeoBundleInstall
-    # cd .vim/bundle/vimproc
-    # make -f make_unix.mk
+    $ cd .vim/bundle/vimproc
+    $ make -f make_unix.mk
